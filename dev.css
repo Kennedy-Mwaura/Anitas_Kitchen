@@ -1,0 +1,35 @@
+#logo-column{
+    display:flex;
+    flex-direction:column;
+    position: relative;
+    top: -40px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 26px;
+}
+#column-text {
+    display:flex;
+    height:100%;
+    text-align: center;
+    width:100%;
+
+}
+
+#column-text-2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    color: #fff;
+    font-size: 26px;
+    background-color: #F15A29;
+    width: 100%;
+    text-align: center;
+    position: relative;
+
+}
+#logo-column-3{
+    display:flex;
+    flex-flow: row wrap;
+    position: relative;
+    top: -40px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+
+}
