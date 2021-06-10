@@ -1,99 +1,96 @@
-.container {
-    display: inline-block;
-    cursor: pointer;
-  }
-  
-  .bar1, .bar2, .bar3 {
-    width: 55px;
-    height: 3px;
-    background-color: #fff;
-    margin: 6px 0;
-    transition: 0.4s;
-    margin-left: 70px;
-    position: relative;
-    top: 90px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  /* Rotate first bar */
-  .change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
-    transform: rotate(-45deg) translate(-9px, 6px) ;
-  }
-  
-  /* Fade out the second bar */
-  .change .bar2 {
-    opacity: 0;
-  }
-  
-  /* Rotate last bar */
-  .change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
-    transform: rotate(45deg) translate(-8px, -8px) ;
-  }
 
-.top-menu {
-    display:flex;
-    flex-direction:column;
-    height: 480px;
-    position: relative;
-    background-image: url(/assets/images/backgrounds/landing.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position:center;
-
-}
-#logo {
-    display:flex;
-    flex-direction: row;
-    padding-left: 800px;
-    height: 250px;
-}
-#logo-row{
-    display :flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-}
- #logo-text {
-    position: relative;
-    color: #fff;
-    font-size: 26px;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-align: center;
-}
-#logo-column{
-  display:flex;
-  flex-flow: column;
+#bar1, #bar2, #bar3 {
+  width: 55px;
+  height: 5px;
+  background-color: #fff;
+  margin: 6px 0;
+  transition: 0.4s;
   position: relative;
-  top: -40px;
-  font-family: Georgia, Times, 'Times New Roman', serif;
-  font-size: 26px;
+  justify-content: space-between;
 }
-#column-text {
-  height:100%;
-  text-align: center;
-  width:100%;
+/* Rotate first bar */
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
+}
 
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
 }
-#column-text-2{
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
-  color: #fff;
-  font-size: 26px;
-  background-color: #F15A29;
-  min-width: 100%;  
-  flex-grow: 10;
-  text-align: center;
-  height:100%;
+
+/* Rotate last bar */
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -8px) ;
+}
+.nav{
+  margin: 50px;
+}
+
+.menulogo{
+  background-image: url('/assets/images/backgrounds/landing.jpg');
   background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: block;
+  font-size: 30px;
+  position: relative;
+  overflow: hidden;
+  color: white;
+  font-family:serif;
 }
-#logo-column-3{
-  display:flex;
-  flex-flow: column;
+.offers {
+  display: flex;
+  flex-direction: row;
+  height: 170px;  
+  color: white;
+  font-style: italic;
+}
+.logo-container{
+  background-image: url('/assets/images/images/images/backgrounds/landing.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  font-size: 30px;
   position: relative;
-  top: -40px;
-  font-family: Georgia, Times, 'Times New Roman', serif;
-  position: relative;
+  overflow: hidden;
+  color: white;
+  font-family:serif;
+}
 
+body{
+  background-color: #d1bbb4;
+  max-width: 1100px;
+  max-height: 100%;
+  margin: 0 auto;
+  font-size: 22px ;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+.main-container{
+  margin: 0 auto;
+  max-width: 100%;
+  background-color:#F15A29;
+  border-radius:2px;
+  color: black;
+}
+#servtable{
+  flex: 1;
+  text-align: center;
+
+}
+.offertable{
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+  font-style: normal;
+
+}
+#offer1{
+  background-color: lightgray;
+  color: black;
 }
