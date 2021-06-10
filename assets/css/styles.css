@@ -83,14 +83,40 @@ body{
 
 }
 .offertable{
+  border-collapse: collapse;
   margin: 0px;
   width: 100%;
   height: 100%;
-  border-collapse: collapse;
-  font-style: normal;
-
 }
 #offer1{
   background-color: lightgray;
   color: black;
+}
+#breakfast, #lunch, #dinner{
+  background-size: 100%;
+  flex: 1;
+  text-align: center;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  
+  
+}
+#breakfast{
+  background-image: url('/assets/images/foodtop/breakfast.jpg');
+}
+#lunch{
+  background-image: url('/assets/images/foodtop/lunch.jpg');
+  background-color: rgba(231, 228, 228, 0.79); 
+  background-blend-mode: overlay; /*adds overlay text on bakground */                       /
+}
+#dinner{
+  background-image: url('/assets/images/foodtop/dinner.jpg');
+}
+
+.fast-food{
+  background-color: whitesmoke;
+  height: auto;
+  padding: 40px;
+  width: auto;
+  
 }
