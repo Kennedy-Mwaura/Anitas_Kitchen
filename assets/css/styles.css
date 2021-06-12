@@ -274,3 +274,35 @@ th{
 #client-review > h3, #about >h3{
   color: #F15A29;
 }
+.ff-delivery{
+  background-image: url('/assets/images/images/backgrounds/subscribe.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  padding: 40px;
+  color: whitesmoke;
+}
+#textbox{
+  background-color: rgb(88, 87, 87);
+  width: 400px;
+  height:50px ;
+  border: none;
+  margin-top: 5px;
+  margin: 20px;
+  opacity: 0.5;       /*makes inputfield see through*/
+}
+::placeholder{
+  color: white;
+  opacity: 1;
+  padding-left: 10px;
+}
+#Subscribe{
+  background-color: #F15A29;
+  width: 200px;
+  height:50px ;
+  border:none;
+  color: whitesmoke;
+}
