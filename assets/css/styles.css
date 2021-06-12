@@ -267,7 +267,20 @@ th{
   height: 210px; 
   margin: auto;
 }
-
+.arrow {
+  border: solid #F15A29;
+  border-width: 0 3px 3px 0;
+  padding: 5px;
+  text-align: center;
+}
+.right {
+  transform: rotate(-45deg);
+  float: right;
+}
+.left {
+  transform: rotate(135deg);
+  float: left;
+}
 #about-1{
   flex: 2;
   margin-left: 40px;
@@ -307,4 +320,18 @@ th{
   height:50px ;
   border:none;
   color: whitesmoke;
+}
+.footer{
+  text-align: center;
+  font-size: 18px;
+  padding-top: 40px; 
+  color: white;
+}
+#copyright{
+  font-size: 15px;
+}
+#bottom-logo{
+  align-items: center;
+  display: flex;
+  justify-content:center;
 }
