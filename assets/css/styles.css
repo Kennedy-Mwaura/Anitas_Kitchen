@@ -281,6 +281,15 @@ th{
   transform: rotate(135deg);
   float: left;
 }
+.client-container{
+  justify-content: center;
+  margin: 10px; 
+  align-items: center;
+  display:flex;
+ 
+}
+
+
 #about-1{
   flex: 2;
   margin-left: 40px;
