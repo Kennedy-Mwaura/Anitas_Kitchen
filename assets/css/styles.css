@@ -252,3 +252,25 @@ th{
   height: 200;
   display: flex;
 }
+#client-review, #about{
+  text-align: center; 
+  font-size: 16.5px;
+}
+#client-review{
+  flex: 3;
+  margin-right: 40px;
+  text-align: center;
+}
+#vertical-line { 
+  border-left: 1px solid grey;
+  height: 210px; 
+  margin: auto;
+}
+
+#about-1{
+  flex: 2;
+  margin-left: 40px;
+}
+#client-review > h3, #about >h3{
+  color: #F15A29;
+}
