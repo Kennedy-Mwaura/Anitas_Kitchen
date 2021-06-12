@@ -154,7 +154,7 @@ body{
 }
 
 .main-drinks{
-  display: flex;
+  display: flex;                        
   background-color: whitesmoke;
 }
 #md-text{
@@ -235,6 +235,7 @@ th{
   padding: 10px;
   height: 50px;
 }
+/* Client section  and about */
 .ff-clients{
   padding: 120px;  
   padding-top: 50px;
@@ -297,6 +298,7 @@ th{
 #client-review > h3, #about >h3{
   color: #F15A29;
 }
+/* Subscribe */ 
 .ff-delivery{
   background-image: url('/assets/images/images/backgrounds/subscribe.jpg');
   background-size: 100% 100%;
@@ -308,6 +310,14 @@ th{
   padding: 40px;
   color: whitesmoke;
 }
+#Subscribe{
+  background-color: #F15A29;
+  width: 200px;
+  height:50px ;
+  border:none;
+  color: whitesmoke;
+}
+/* Footer section */
 #footer-textbox{
   height:50px ;
   border: none;
@@ -323,13 +333,7 @@ th{
   opacity: 1;
   padding-left: 10px;
 }
-#Subscribe{
-  background-color: #F15A29;
-  width: 200px;
-  height:50px ;
-  border:none;
-  color: whitesmoke;
-}
+
 .footer{
   text-align: center;
   font-size: 18px;
