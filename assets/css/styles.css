@@ -95,16 +95,16 @@ body{
   
 }
 #breakfast{
-  background-image: url('/assets/images/foodtop/breakfast.jpg');
+  background-image: url('assets/images/foodtop/breakfast.jpg');
 }
 #lunch{
-  background-image: url('/assets/images/foodtop/lunch.jpg');
+  background-image: url('assets/images/foodtop/lunch.jpg');
   background-color: rgba(231, 228, 228, 0.79); 
   /*adds overlay text on bakground */ 
   background-blend-mode: overlay;                       
 }
 #dinner{
-  background-image: url('/assets/images/foodtop/dinner.jpg');
+  background-image: url('assets/images/foodtop/dinner.jpg');
 }
 
 .fast-food{
@@ -175,7 +175,7 @@ body{
   overflow: hidden;
 }
 .ff-items{
-  background-image: url('/assets/images/backgrounds/foodsBg.jpg');
+  background-image: url('assets/images/backgrounds/foodsBg.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   text-align: center;
@@ -289,7 +289,7 @@ th{
 }
 /* Subscribe */ 
 .ff-delivery{
-  background-image: url('/assets/images/backgrounds/subscribe.jpg');
+  background-image: url('assets/images/backgrounds/subscribe.jpg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
   text-align: center;
