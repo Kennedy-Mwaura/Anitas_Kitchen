@@ -42,7 +42,7 @@
 }
 .logo-container{
   background-image: url('/assets/images/backgrounds/landing.jpg');
-  background-size: 100% 100%;
+  background-size: 100%;
   background-repeat: no-repeat;
   text-align: center;
   display: block;
@@ -289,7 +289,7 @@ th{
 }
 /* Subscribe */ 
 .ff-delivery{
-  background-image: url('/assets/images/images/backgrounds/subscribe.jpg');
+  background-image: url('/assets/images/backgrounds/subscribe.jpg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
   text-align: center;
